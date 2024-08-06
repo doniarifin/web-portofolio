@@ -11,18 +11,15 @@
             <XMarkIcon v-else class="block h-6 w-6" aria-hidden="true" />
           </DisclosureButton>
         </div>
-        <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-          <div class="hidden sm:ml-6 sm:block">
-            <div class="flex space-x-4">
+        <div class="flex flex-1 items-center justify-end sm:items-stretch">
+          <div class="hidden sm:block">
+            <div class="flex space-x-20">
               <a v-for="item in navigation" :key="item.name" :href="item.href" :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'rounded-md px-3 py-2 text-sm font-medium']" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</a>
             </div>
           </div>
         </div>
-        <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-          <div>
-            <span class="bg-white p-2 rounded">{{ formattedDate }}</span>
-          </div>
-        </div>
+        <!-- <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+        </div> -->
       </div>
     </div>
 
@@ -38,24 +35,9 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 
-import { ref, computed, onMounted } from 'vue';
-
-const date = ref(new Date());
-
-const formattedDate = computed(() => {
-  return date.value.toLocaleString();
-});
-
 const navigation = [
-  { name: 'Home', href: '#', current: true },
   { name: 'About', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
+  { name: 'Works', href: '#', current: false },
   { name: 'Contact', href: '#', current: false },
 ]
-
-onMounted(() => {
-  setInterval(() => {
-    date.value = new Date();
-  }, 1000);
-});
 </script>

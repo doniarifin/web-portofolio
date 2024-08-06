@@ -1,10 +1,16 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import HomeView from './components/HomeView.vue'
+import Profile from './components/Profile.vue'
+import Works from './components/Works.vue'
 </script>
 
 <template>
-  <HomeView />
+  <div class="mb-4">
+    <HomeView />
+    <Profile />
+    <Works />
+  </div>
 </template>
 
 <style scoped>
