@@ -1,14 +1,14 @@
 <template>
-  <div class="bg-[#313550] w-[80%] h-[100%] justify-center mx-[auto] rounded fadeInRight-animation">
+  <div class="w-[80%] h-[100%] justify-center mx-[auto] fadeInRight-animation hover:scale-105 transition duration-300 ease-in-out">
     <div class="lg:flex mx-auto">
       <div class="w-[auto] md:w-[auto] md:item-center lg:w-[32rem] opacity-100">
         <div class="rounded">
           <div class="p-3">
-            <img src="../assets/works1.png" alt="" class="rounded shadow-[0px_6px_38px_0px_#68d391]">
+            <img src="../assets/works1.png" alt="" class="rounded shadow-[0px_0px_13px_0px_rgb(209_213_219)]">
           </div>
         </div>
       </div>
-      <div class="w-[auto] md:w-[auto] md:item-center lg:w-[32rem] opacity-100">
+      <div class="w-[auto] md:w-[auto] md:item-center lg:w-[32rem] rounded">
         <div class="grid mb-10 mx-12 text-xl text-gray-300 text-justify mt-10">
           <p>
             UI Development of Petrosea career site:
@@ -44,6 +44,7 @@
 
         
       </div>
+      <div class="w-[auto] md:w-[auto] md:item-center lg:w-[32rem] bg-[#242738] hidden "></div>
     </div>
   </div>
 </template>

@@ -14,7 +14,21 @@
         <div class="flex flex-1 items-center justify-end sm:items-stretch">
           <div class="hidden sm:block">
             <div class="flex space-x-20">
-              <a v-for="item in navigation" :key="item.name" :href="item.href" :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'rounded-md px-3 py-2 text-sm font-medium']" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</a>
+              <a 
+                v-for="item in navigation" 
+                :key="item.name" 
+                :href="item.href" 
+                :class="
+                  [
+                    item.current ? 'bg-gray-900 text-white' : 
+                    'text-gray-300 hover:text-white hover:scale-125 transition duration-300 ease-in-out hover:text-shadow-[0_4px_8px_#d1d5db]', 'rounded-md px-3 py-2 text-sm font-medium'
+                  ]
+                " 
+                :aria-current="
+                  item.current ? 'page' : 
+                  undefined
+                "
+                >{{ item.name }}</a>
             </div>
           </div>
         </div>
