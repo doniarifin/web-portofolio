@@ -17,7 +17,8 @@
               <a 
                 v-for="item in navigation" 
                 :key="item.name" 
-                :href="item.href" 
+                :href="item.href"
+                @click.prevent="scrollToSection(item.href)"
                 :class="
                   [
                     item.current ? 'bg-gray-900 text-white' : 
@@ -50,8 +51,15 @@ import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuIt
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 
 const navigation = [
-  { name: 'About', href: '#', current: false },
-  { name: 'Works', href: '#', current: false },
-  { name: 'Contact', href: '#', current: false },
+  { name: 'About', href: '#about', current: false },
+  { name: 'Works', href: '#works', current: false },
+  { name: 'Contact', href: '#contact', current: false },
 ]
+
+function scrollToSection(target) {
+  const element = document.querySelector(target);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+}
 </script>

@@ -11,6 +11,9 @@
       <p> 
         I am constantly exploring new technologies in software development to enhance my skills.
       </p>
+      <p> 
+        My expertise includes Golang, Vue.js, HTML, CSS, JavaScript, PHP, and Tailwind CSS.
+      </p>
     </div>
   </div>
 </template>
