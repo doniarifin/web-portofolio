@@ -3,13 +3,23 @@ import HelloWorld from './components/HelloWorld.vue'
 import HomeView from './components/HomeView.vue'
 import Profile from './components/Profile.vue'
 import Works from './components/Works.vue'
+import Project2 from './components/Project2.vue'
+import ContactMe from './components/ContactMe.vue'
 </script>
 
 <template>
   <div class="mb-4">
     <HomeView />
-    <Profile />
-    <Works />
+    <section id="about">
+      <Profile />
+    </section>
+    <section id="works">
+      <Works />
+      <Project2 />
+    </section>
+    <section id="contact">
+      <ContactMe />
+    </section>
   </div>
 </template>
 
