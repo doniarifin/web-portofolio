@@ -1,5 +1,4 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
 import HomeView from './components/HomeView.vue'
 import Profile from './components/Profile.vue'
 import Works from './components/Works.vue'
