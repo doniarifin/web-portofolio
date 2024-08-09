@@ -11,6 +11,8 @@
   "dependencies": {
     "@headlessui/vue": "^1.7.22",
     "@heroicons/vue": "^2.1.5",
+    "@mdi/js": "^7.4.47",
+    "mdi-vue": "^3.0.13",
     "vue": "^3.4.31"
   },
   "devDependencies": {
