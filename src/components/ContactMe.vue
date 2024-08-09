@@ -5,7 +5,7 @@
     <div class="lg:flex mx-auto">
       <div class="w-[auto] md:w-[auto] md:item-center rounded">
         <div class="grid mx-12 text-xl text-gray-300 text-justify mt-10">
-          <h1 class="text-[#54B4D3] text-4xl font-bold">
+          <h1 class="text-[#54B4D3] lg:text-4xl md:text-2xl sm:text-2xl font-bold">
             muh.dhoni@gmail.com
           </h1>
         </div>
