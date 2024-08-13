@@ -56,6 +56,25 @@
             <mdicon name="linkedin" width="50"/>
           </a>
         </div>
+        <div class="mb-10 mx-12 text-xl mt-10">
+          <a href="https://github.com/doniarifin"
+            class="
+                text-gray-700
+                bg-[#54B4D3]
+                hover:scale-105
+                transition
+                duration-300
+                ease-in-out
+                font-medium 
+                rounded-xl
+                inline-flex
+                items-center
+                justify-center
+              "
+          >
+            <mdicon name="github" width="50"/>
+          </a>
+        </div>
       </div>
     </div>
   </div>
