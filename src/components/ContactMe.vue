@@ -24,13 +24,12 @@
               duration-300
               ease-in-out
               font-medium 
-              rounded-xl
+              rounded-lg
               text-sm
               inline-flex
               items-center
               justify-center
-              px-4
-              py-2
+              p-2
             "
           >
             Contact Me 
@@ -40,8 +39,7 @@
         <div class="mb-10 mx-12 text-xl mt-10">
           <a href="https://www.linkedin.com/in/mdhoni-zahrul-am/"
             class="
-                text-gray-700
-                bg-[#54B4D3]
+                text-white
                 hover:scale-105
                 transition
                 duration-300
@@ -55,12 +53,9 @@
           >
             <mdicon name="linkedin" width="50"/>
           </a>
-        </div>
-        <div class="mb-10 mx-12 text-xl mt-10">
           <a href="https://github.com/doniarifin"
             class="
-                text-gray-700
-                bg-[#54B4D3]
+                text-white
                 hover:scale-105
                 transition
                 duration-300
