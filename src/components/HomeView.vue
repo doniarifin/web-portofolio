@@ -31,8 +31,8 @@
                 @click.prevent="handleClick(item)"
                 :class="
                   [
-                    item.current ? 'text-white scale-125 text-shadow-[0_4px_8px_#d1d5db]' : 
-                    'text-gray-300 hover:text-white hover:scale-125 transition duration-300 ease-in-out hover:text-shadow-[0_4px_8px_#d1d5db]', 'rounded-md px-3 py-2 text-sm font-medium'
+                    item.current ? 'text-[#54B4D3] scale-125 text-shadow-[0_4px_8px_#d1d5db]' : 
+                    'text-gray-300 hover:text-[#54B4D3] hover:scale-125 transition duration-300 ease-in-out hover:text-shadow-[0_4px_8px_#d1d5db]', 'rounded-md px-3 py-2 text-sm font-medium'
                   ]
                 " 
                 :aria-current="
