@@ -1,5 +1,5 @@
 <template>
-  <div class="w-[80%] h-[100%] justify-center mx-[auto] h-px my-8 bg-gray-300 border-0 dark:bg-gray-700 opacity-100"></div>
+  <!-- <div class="w-[80%] h-[100%] justify-center mx-[auto] h-px my-8 bg-gray-300 border-0 dark:bg-gray-700 opacity-100"></div> -->
   <div class="w-[80%] h-[100%] justify-center mx-[auto] fadeInRight-animation hover:scale-105 transition duration-300 ease-in-out">
     <div class="lg:flex mx-auto">
       <div class="w-[auto] md:w-[auto] md:item-center rounded">

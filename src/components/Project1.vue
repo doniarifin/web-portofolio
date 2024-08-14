@@ -1,8 +1,9 @@
 <template>
-  <div class="w-[80%] h-[100%] justify-center mx-[auto] h-px my-8 bg-gray-300 border-0 dark:bg-gray-700 opacity-100"></div>
+  <div class="w-[80%] h-[100%] justify-center mx-[auto] h-px bg-gray-300 border-0 dark:bg-gray-700 opacity-100"></div>
+  <h1 class="w-[80%] h-[100%] mx-[auto] lg:text-6xl text-justify md:text-6xl sm:text-6xl text-4xl text-gray-300 font-bold pt-16 mb-4">Projects</h1>
   <div class="w-[80%] h-[100%] justify-center mx-[auto] fadeInRight-animation hover:scale-105 transition duration-300 ease-in-out pb-10">
     <div class="lg:flex mx-auto">
-      <div class="w-[auto] md:w-[auto] md:item-center opacity-100">
+      <div class="w-[auto] md:w-[auto] md:item-center opacity-100 mt-10">
         <div class="rounded">
           <div class="p-3">
             <img src="../assets/works1.png" alt="" class="rounded shadow-[0px_0px_13px_0px_rgb(209_213_219)]">

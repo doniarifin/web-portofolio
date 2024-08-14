@@ -1,7 +1,7 @@
 <script setup>
 import HomeView from './components/HomeView.vue'
 import Profile from './components/Profile.vue'
-import Works from './components/Works.vue'
+import Project1 from './components/Project1.vue'
 import Project2 from './components/Project2.vue'
 import ContactMe from './components/ContactMe.vue'
 </script>
@@ -12,8 +12,8 @@ import ContactMe from './components/ContactMe.vue'
     <section id="about">
       <Profile />
     </section>
-    <section id="works">
-      <Works />
+    <section id="projects">
+      <Project1 />
       <Project2 />
     </section>
     <section id="contact">

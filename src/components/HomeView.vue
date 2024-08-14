@@ -1,5 +1,5 @@
 <template>
-  <Disclosure as="nav" class="bg-gray-800" v-slot="{ open }">
+  <Disclosure as="nav" class="bg-gray-800 sticky top-0 z-50" v-slot="{ open }">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -18,10 +18,10 @@
                 v-for="item in navigation" 
                 :key="item.name" 
                 :href="item.href"
-                @click.prevent="scrollToSection(item.href)"
+                @click.prevent="handleClick(item)"
                 :class="
                   [
-                    item.current ? 'bg-gray-900 text-white' : 
+                    item.current ? 'text-white scale-125 text-shadow-[0_4px_8px_#d1d5db]' : 
                     'text-gray-300 hover:text-white hover:scale-125 transition duration-300 ease-in-out hover:text-shadow-[0_4px_8px_#d1d5db]', 'rounded-md px-3 py-2 text-sm font-medium'
                   ]
                 " 
@@ -33,8 +33,6 @@
             </div>
           </div>
         </div>
-        <!-- <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-        </div> -->
       </div>
     </div>
 
@@ -47,14 +45,23 @@
 </template>
 
 <script setup>
-import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
+import { ref } from 'vue';
+import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
+import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
-const navigation = [
+const navigation = ref([
   { name: 'About', href: '#about', current: false },
-  { name: 'Works', href: '#works', current: false },
+  { name: 'Projects', href: '#projects', current: false },
   { name: 'Contact', href: '#contact', current: false },
-]
+]);
+
+function handleClick(item) {
+  navigation.value.forEach(navItem => navItem.current = false);
+
+  item.current = true;
+
+  scrollToSection(item.href);
+}
 
 function scrollToSection(target) {
   const element = document.querySelector(target);

@@ -11,7 +11,13 @@
         </div>
         <div class="grid mx-12 text-xl text-gray-300 text-justify mt-6">
           <p>
-            I am excited about new challenges and opportunities. I'm ready to contribute, learn, and grow, with the hope of advancing my skills and career. Let's get in touch.
+            I am excited about new challenges and opportunities.
+          </p>
+          <p>
+            I'm ready to contribute, learn, and grow, with the hope of advancing my skills and career.
+          </p>
+          <p>
+            Let's get in touch.
           </p>
         </div>
         <div class="mb-10 mx-12 text-xl mt-10">

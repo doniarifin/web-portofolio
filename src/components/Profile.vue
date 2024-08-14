@@ -1,6 +1,6 @@
 <template>
   <div class="justify-center text-white fadeInUp-animation w-[80%] h-[100%] mx-[auto] rounded hover:scale-105 transition duration-300 ease-in-out">
-    <h1 class="lg:text-6xl text-justify md:text-6xl sm:text-6xl text-4xl text-gray-300 font-bold pt-10">Hi, I'm Dhoni</h1>
+    <h1 class="lg:text-6xl text-justify md:text-6xl sm:text-6xl text-4xl text-gray-300 font-bold pt-16">Hi, I'm Dhoni</h1>
     <div class="grid mb-10 mx-12 text-xl text-gray-300 text-justify mt-10 pb-10">
       <p>
         Hey there, I'm a software developer based in Jember, Indonesia.
