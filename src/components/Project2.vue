@@ -3,22 +3,22 @@
   <div class="w-[80%] h-[100%] justify-center mx-[auto] fadeInRight-animation hover:scale-105 transition duration-300 ease-in-out">
     <div class="lg:flex mx-auto">
       <div class="w-[auto] md:w-[auto] md:item-center rounded">
-        <div class="grid mx-12 text-xl text-gray-300 text-justify mt-10">
+        <div class="grid lg:mx-12 text-xl text-gray-300 text-justify mt-10">
           <h1 class="text-[#FBFBFB] text-2xl font-bold">
             Development of SHEPRO Apps for Petrosea
           </h1>
         </div>
-        <div class="grid mx-12 text-xl text-gray-300 text-justify mt-6">
+        <div class="grid lg:mx-12 text-xl text-gray-300 text-justify mt-6">
           <p>
             Contributed to the development of SHEPRO Apps, a suite of applications owned by Petrosea designed to assist manufacturers in managing employee health, reducing safety incidents, managing their environmental footprint, and ensuring operational continuity.
           </p>
         </div>
-        <div class="grid mb-10 mx-12 text-xl text-gray-300 text-justify mt-6">
+        <div class="grid mb-10 lg:mx-12 text-xl text-gray-300 text-justify mt-6">
           <p class="text-[#54B4D3] font-bold">
             Golang, Vue Js, MongoDB.
           </p>
         </div>
-        <div class="mb-10 mx-12 text-xl mt-10">
+        <div class="mb-10 lg:mx-12 text-xl mt-10">
           <a href="https://petrosea.com/" 
             class="
               text-[#313550]

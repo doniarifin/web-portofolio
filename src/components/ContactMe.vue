@@ -5,12 +5,12 @@
     <div class="w-[80%] h-[100%] justify-center mx-[auto] fadeInRight-animation hover:scale-105 transition duration-300 ease-in-out pb-10">
       <div class="lg:flex mx-auto">
         <div class="w-[auto] md:w-[auto] md:item-center rounded">
-          <div class="grid mx-12 text-xl text-gray-300 text-justify mt-10">
+          <div class="grid lg:mx-12 text-xl text-gray-300 text-justify mt-10">
             <h1 class="text-[#54B4D3] lg:text-4xl md:text-2xl sm:text-2xl font-bold">
               muh.dhoni@gmail.com
             </h1>
           </div>
-          <div class="grid mx-12 text-xl text-gray-300 text-justify mt-6">
+          <div class="grid lg:mx-12 text-xl text-gray-300 text-justify mt-6">
             <p>
               I am excited about new challenges and opportunities.
             </p>
@@ -21,7 +21,7 @@
               Let's get in touch.
             </p>
           </div>
-          <div class="mb-10 mx-12 text-xl mt-10">
+          <div class="mb-10 lg:mx-12 text-xl mt-10">
             <a href=mailto:muh.dhoni@gmail.com
               class="
                 text-gray-700
@@ -43,7 +43,7 @@
               <mdicon name="email" width="20" class="ml-2" />
             </a>
           </div>
-          <div class="mb-10 mx-12 text-xl mt-10">
+          <div class="mb-10 lg:mx-12 text-xl mt-10">
             <a href="https://www.linkedin.com/in/mdhoni-zahrul-am/"
               class="
                   text-white

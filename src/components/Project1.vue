@@ -11,22 +11,22 @@
         </div>
       </div>
       <div class="w-[auto] md:w-[auto] md:item-center rounded">
-        <div class="grid mx-12 text-xl text-gray-300 text-justify mt-10">
+        <div class="grid lg:mx-12 text-xl text-gray-300 text-justify mt-10">
           <h1 class="text-[#FBFBFB] text-2xl font-bold">
             Customizing the SAP Business User Interface for Petrosea Career Site
           </h1>
         </div>
-        <div class="grid mx-12 text-xl text-gray-300 text-justify mt-6">
+        <div class="grid lg:mx-12 text-xl text-gray-300 text-justify mt-6">
           <p>
             Worked on enhancing the SAP Business User Interface for Petrosea's career site to support their recruitment marketing strategies, aimed at building a strong employer brand and engaging potential candidates effectively.
           </p>
         </div>
-        <div class="grid mb-10 mx-12 text-xl text-gray-300 text-justify mt-6">
+        <div class="grid mb-10 lg:mx-12 text-xl text-gray-300 text-justify mt-6">
           <p class="text-[#54B4D3] font-bold">
             HTML, CSS, JavaScript.
           </p>
         </div>
-        <div class="mb-10 mx-12 text-xl mt-10">
+        <div class="mb-10 lg:mx-12 text-xl mt-10">
           <a href="https://career.petrosea.com/" 
             class="
               text-[#313550]
