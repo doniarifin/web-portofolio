@@ -11,7 +11,17 @@
             <XMarkIcon v-else class="block h-6 w-6" aria-hidden="true" />
           </DisclosureButton>
         </div>
+        <!-- Widget on desktop -->
+        <div class="flex items-center justify-start">
+          <div class="hidden sm:block">
+            <Widget content="onlydate" />
+          </div>
+        </div>
         <div class="flex flex-1 items-center justify-end sm:items-stretch">
+          <!-- Widget on mobile -->
+          <div class="block sm:hidden flex items-center">
+            <Widget content="onlydate" />
+          </div>
           <div class="hidden sm:block">
             <div class="flex space-x-20">
               <a 
@@ -35,7 +45,6 @@
         </div>
       </div>
     </div>
-
     <DisclosurePanel class="sm:hidden">
       <div class="space-y-1 px-2 pb-3 pt-2">
         <DisclosureButton v-for="item in navigation" :key="item.name" as="a" :href="item.href" :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'block rounded-md px-3 py-2 text-base font-medium']" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</DisclosureButton>
@@ -48,6 +57,7 @@
 import { ref } from 'vue';
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
+import Widget from "./Widget.vue";
 
 const navigation = ref([
   { name: 'About', href: '#about', current: false },

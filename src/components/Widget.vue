@@ -1,17 +1,21 @@
 <template>
-  <slot name="onlytime" :item="onlyTime">
-    <div class="onlytime text-[#fcffe7]">
-      {{ onlyTime }}
-    </div>
-  </slot>
-  <slot name="onlydate" :item="onlyDate">
-    <div class="onlydate text-[#fcffe7]">
-      {{ onlyDate }}
-    </div>
-  </slot>
+  <div v-if="content === 'onlydate'" class="onlydate text-gray-300">
+    {{ onlyDate }}
+  </div>
+  <div v-else-if="content === 'onlytime'" class="onlytime text-gray-300">
+    {{ onlyTime }}
+  </div>
 </template>
 <script setup>
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed, onMounted, defineProps } from 'vue';
+
+const props = defineProps({
+  content: {
+    type: String,
+    required: true,
+    validator: value => ['onlydate', 'onlytime'].includes(value),
+  },
+});
 
 const date = ref(new Date());
 const onlyTime = computed(() => {
