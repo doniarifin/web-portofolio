@@ -21,7 +21,7 @@
               Let's get in touch.
             </p>
           </div>
-          <div class="mb-10 lg:mx-12 text-xl mt-10">
+          <div class="mb-5 lg:mx-12 text-xl mt-10">
             <a href=mailto:muh.dhoni@gmail.com
               class="
                 text-gray-700
@@ -43,7 +43,7 @@
               <mdicon name="email" width="20" class="ml-2" />
             </a>
           </div>
-          <div class="mb-10 lg:mx-12 text-xl mt-10">
+          <div class="lg:mx-10 mb-10 text-xl">
             <a href="https://www.linkedin.com/in/mdhoni-zahrul-am/"
               class="
                   text-white
