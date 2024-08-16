@@ -24,7 +24,6 @@ import ContactMe from './components/ContactMe.vue'
   <!-- Footer -->
   <footer class="footer">
     <div class="flex justify-end">
-      &copy;2024 Dhoni
       <a href="https://github.com/doniarifin"
           class="
             hover:scale-105
@@ -37,7 +36,7 @@ import ContactMe from './components/ContactMe.vue'
             items-center
             justify-center
           "
-        >
+        >Dhoni
         <mdicon name="github" width="20" class="ml-2" />
       </a>
     </div>
