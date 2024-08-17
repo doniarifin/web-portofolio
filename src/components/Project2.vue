@@ -1,6 +1,6 @@
 <template>
   <!-- <div class="w-[80%] h-[100%] justify-center mx-[auto] h-px my-8 bg-gray-300 border-0 dark:bg-gray-700 opacity-100"></div> -->
-  <div class="w-[80%] h-[100%] justify-center mx-[auto] fadeInRight-animation hover:scale-105 transition duration-300 ease-in-out">
+  <div ref="fadeElement" class="w-[80%] h-[100%] justify-center mx-[auto] hover:scale-105 transition duration-300 ease-in-out opacity-0 invisible">
     <div class="lg:flex mx-auto">
       <div class="w-[auto] md:w-[auto] md:item-center rounded">
         <div class="grid lg:mx-12 text-xl text-gray-300 text-justify mt-10">
@@ -52,3 +52,28 @@
     </div>
   </div>
 </template>
+<script setup>
+import { ref, onMounted } from 'vue';
+
+const fadeElement = ref(null);
+
+onMounted(() => {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          fadeElement.value.classList.remove('opacity-0', 'invisible');
+          fadeElement.value.classList.add('fadeInLeft-animation');
+          observer.unobserve(fadeElement.value);
+        }
+      });
+    },
+    {
+      threshold: 0.1
+    }
+  );
+  if (fadeElement.value) {
+    observer.observe(fadeElement.value);
+  }
+});
+</script>

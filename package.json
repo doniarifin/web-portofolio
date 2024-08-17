@@ -12,6 +12,7 @@
     "@headlessui/vue": "^1.7.22",
     "@heroicons/vue": "^2.1.5",
     "@mdi/js": "^7.4.47",
+    "intersection-observer": "^0.12.2",
     "mdi-vue": "^3.0.13",
     "vue": "^3.4.31"
   },

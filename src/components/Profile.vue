@@ -24,8 +24,3 @@
 import Widget from './Widget.vue';
 
 </script>
-
-<style>
-
-
-</style>
