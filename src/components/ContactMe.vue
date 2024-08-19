@@ -102,7 +102,7 @@ onMounted(() => {
         });
       },
       {
-        threshold: 0.8
+        threshold: 0.2
       }
     );
 
