@@ -23,7 +23,7 @@ import ContactMe from './components/ContactMe.vue'
   
   <!-- Footer -->
   <footer class="footer">
-    <div class="flex justify-end">
+    <div class="justify-end">
       <a href="https://github.com/doniarifin"
           class="
             hover:scale-105
@@ -62,8 +62,8 @@ import ContactMe from './components/ContactMe.vue'
   padding: 1rem;
   background-color: var(--dark);
   color: whitesmoke;
-  position: fixed;
-  width: 100%;
+  /* position: fixed; */
+  /* width: 100%; */
   bottom: 0;
 }
 </style>

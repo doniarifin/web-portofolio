@@ -24,6 +24,7 @@ a:hover {
 
 body {
   /* display: flex; */
+  margin: 0%;
   place-items: center;
   background-color: #242738;
 }
@@ -61,6 +62,15 @@ button:focus-visible {
   margin: 0 auto;
   /* padding: 2rem; */
   /* text-align: center; */
+}
+
+@media (min-width: 1024px) {
+  #app {
+    /* max-width: 1280px; */
+    margin: 0 10rem;
+    /* padding: 2rem; */
+    /* text-align: center; */
+  }
 }
 
 @media (prefers-color-scheme: light) {
