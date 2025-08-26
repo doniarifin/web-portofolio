@@ -13,20 +13,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-} */
-
 body {
-  /* display: flex; */
-  margin: 0%;
-  place-items: center;
+  width: 100vw;
+  display: flex;
+  margin: 0;
+  /* place-items: center; */
   background-color: #242738;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -53,25 +46,18 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.card {
+/* .card {
   padding: 2em;
-}
+} */
 
 #app {
-  /* max-width: 1280px; */
+  /* max-width: 100vw; */
+  overflow-x: hidden;
   margin: 0 auto;
-  /* padding: 2rem; */
-  /* text-align: center; */
+  text-align: center;
 }
 
-@media (min-width: 1024px) {
-  #app {
-    /* max-width: 1280px; */
-    margin: 0 10rem;
-    /* padding: 2rem; */
-    /* text-align: center; */
-  }
-}
+
 
 @media (prefers-color-scheme: light) {
   :root {

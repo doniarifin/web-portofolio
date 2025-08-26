@@ -1,46 +1,26 @@
 <script setup>
-import HomeView from './components/HomeView.vue'
-import Profile from './components/Profile.vue'
-import Project1 from './components/Project1.vue'
-import Project2 from './components/Project2.vue'
-import ContactMe from './components/ContactMe.vue'
+import Navbar from "./components/Navbar.vue";
+import Footer from "./menu/Footer.vue";
+import MainSection from "./menu/MainSection.vue";
 </script>
 
 <template>
-  <div class="">
-    <HomeView />
-    <section id="about">
-      <Profile />
-    </section>
-    <section id="projects">
-      <Project1 />
-      <Project2 />
-    </section>
-    <section id="contact">
-      <ContactMe />
-    </section>
-  </div>
-  
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="justify-end">
-      <a href="https://github.com/doniarifin"
-          class="
-            hover:scale-105
-            transition
-            duration-300
-            ease-in-out
-            font-medium 
-            rounded-xl
-            inline-flex
-            items-center
-            justify-center
-          "
-        >Dhoni
-        <mdicon name="github" width="20" class="ml-2" />
-      </a>
+  <div class="wrapper">
+    <header class="header-top w-full">
+      <div class="mx-auto">
+        <Navbar />
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <div class="mx-auto max-w-7xl w-full">
+      <MainSection class="mainsection w-full text-[#F9FAFB]" />
     </div>
-  </footer>
+    <!-- Footer -->
+    <div class="w-full pb-40 footer-bottom">
+      <Footer class="bg-gray-900 h-24 text-center" />
+    </div>
+  </div>
 </template>
 
 <style scoped>
@@ -56,14 +36,31 @@ import ContactMe from './components/ContactMe.vue'
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
-.footer {
-  text-align: center;
-  font-weight: 300;
-  padding: 1rem;
-  background-color: var(--dark);
-  color: whitesmoke;
-  /* position: fixed; */
-  /* width: 100%; */
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.header-top {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+.mainsection {
+  /* max-width: 80rem; */
+  flex: 1;
+}
+.footer-bottom {
   bottom: 0;
+  left: 0;
+  /* position: fixed; */
+  width: 100vw;
+  background-color: #111827;
+  height: 6rem;
+  /* display: flex; */
 }
 </style>
