@@ -25,8 +25,8 @@
         <p>
           My expertise includes
           <span class="text-secondary font-bold"
-            >Golang, PHP, Python, Vue.js, HTML/CSS, JavaScript, Tailwind CSS,
-            SQL, and MongoDB</span
+            >Golang, PHP, Vue.js, HTML/CSS, JavaScript, Tailwind CSS, SQL, and
+            MongoDB</span
           >.
         </p>
       </div>
