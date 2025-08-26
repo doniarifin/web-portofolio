@@ -8,10 +8,10 @@
           <div class="rounded">
             <div
               class="p-3 cursor-pointer"
-              @click="openImage('../assets/works1.png')"
+              @click="openImage('/images/works1.png')"
             >
               <img
-                src="../assets/works1.png"
+                src="/images/works1.png"
                 alt=""
                 class="rounded shadow-[0px_0px_13px_0px_rgb(209_213_219)]"
               />

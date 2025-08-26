@@ -35,10 +35,10 @@
           <div class="rounded">
             <div
               class="p-3 cursor-pointer"
-              @click="openImage('../assets/project2.png')"
+              @click="openImage('/images/project2.png')"
             >
               <img
-                src="../assets/project2.png"
+                src="/images/project2.png"
                 alt=""
                 class="rounded shadow-[0px_0px_13px_0px_rgb(209_213_219)]"
               />

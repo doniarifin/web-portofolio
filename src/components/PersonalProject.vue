@@ -13,10 +13,10 @@
           <div class="rounded">
             <div
               class="p-3 cursor-pointer"
-              @click="openImage('../assets/cvbuilder.png')"
+              @click="openImage('/images/cvbuilder.png')"
             >
               <img
-                src="../assets/cvbuilder.png"
+                src="/images/cvbuilder.png"
                 alt=""
                 class="rounded shadow-[0px_0px_13px_0px_rgb(209_213_219)]"
               />
