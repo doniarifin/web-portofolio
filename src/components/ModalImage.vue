@@ -6,10 +6,10 @@
   >
     <div class="relative max-w-4xl w-full">
       <div
-        class="absolute top-0 right-0 text-red-500 font-bold text-xl cursor-pointer"
+        class="absolute top-0 right-0 text-[#5a6881] p-1 rounded-full bg-[#fff] hover:bg-textcolor transition duration-300 cursor-pointer"
         @click="close"
       >
-        <mdicon name="close" width="40" height="40" class="animate-fadeIn" />
+        <mdicon name="close" width="30" height="30" class="" />
       </div>
       <div>
         <img
