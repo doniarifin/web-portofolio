@@ -17,12 +17,12 @@
               continuity.
             </p>
           </div>
-          <div class="text-gray-300 text-justify mt-6">
+          <div class="text-gray-300 text-xl text-justify mt-6">
             <p class="text-secondary font-bold">Golang, Vue Js, MongoDB.</p>
           </div>
           <div class="mb-10 mt-10">
             <a
-              href="https://petrosea.com/"
+              href="https://shepro.petrosea.com/app/main/"
               target="_blank"
               class="text-white bg-secondary hover:scale-105 transition duration-300 ease-in-out font-medium rounded-xl text-sm inline-flex items-center justify-center px-4 py-2"
             >

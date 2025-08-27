@@ -33,9 +33,7 @@
               PDF.
             </p>
           </div>
-          <div
-            class="grid mb-10 lg:mx-12 text-xl text-gray-300 text-justify mt-6"
-          >
+          <div class="grid mb-10 text-xl text-gray-300 text-justify mt-6">
             <p class="text-secondary font-bold">Vuejs, Tailwind CSS.</p>
           </div>
           <div class="mb-10 lg:mx-12 text-xl mt-10">
