@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mb-10">
     <h1 class="text-4xl font-bold text-textcolor pt-20">Personal Project</h1>
   </div>
   <div ref="fadeElement" class="opacity-0 invisible">

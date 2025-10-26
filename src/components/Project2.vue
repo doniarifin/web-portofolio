@@ -31,7 +31,7 @@
             </a>
           </div>
         </div>
-        <div class="w-[auto] md:w-[auto] md:item-center opacity-100">
+        <div class="w-[auto] md:w-[auto] md:item-center opacity-100 mt-10">
           <div class="rounded">
             <div
               class="p-3 cursor-pointer"
